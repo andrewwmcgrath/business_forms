@@ -54,18 +54,15 @@
 <body>
     <h2>Network Rail Employee Survey</h2>
     
-    <form id="surveyForm">
-        <label for="companyID">Company Name ID:</label>
-        <select id="companyID" name="companyID">
-            <option value="NR01">NR01</option>
-            <option value="NR02">NR02</option>
-            <option value="NR03">NR03</option>
-        </select>
+<form id="surveyForm">
+            <label for="companyID">Company Name ID:</label>
+<input type="text" id="companyID" name="companyID" placeholder="Enter your company ID">
 
-        <label>Time Period of Employment:</label>
-        <label><input type="radio" name="timePeriod" value="0"> </label>
-        <label><input type="radio" name="timePeriod" value="1"> </label>
-        <label><input type="radio" name="timePeriod" value="2"> </label>
+        <div class="question">
+            <p>Answer period</p>
+            <label><input type="radio" name="q1" value="0"> 0</label>
+            <label><input type="radio" name="q1" value="1"> 1</label>
+            <label><input type="radio" name="q1" value="2"> 2</label>
 
         <div class="question">
             <p>I feel valued as an employee.</p>
