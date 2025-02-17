@@ -1,0 +1,59 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Survey Container */
+.survey-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+h2 {
+    text-align: center;
+    color: #0056b3;
+}
+
+/* Questions */
+.question {
+    margin-bottom: 15px;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 5px;
+}
+
+/* Form Inputs */
+label {
+    display: block;
+    margin-top: 5px;
+}
+
+select, input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Submit Button */
+.btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
